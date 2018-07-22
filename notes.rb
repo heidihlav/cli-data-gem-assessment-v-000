@@ -24,7 +24,7 @@ puts "Here are our urgent needs for Cats:" *use index to display with names. "1.
 puts "Which cat or dog would you like to know more about? Enter a number 1 - 10."
 user_input = gets.strip.to_i
 *User enters 1 - 10*
-*Displays pet name and description*
+*Displays individual pet name and description*
 
 Would you like to see another cat or dog? Enter Y or N.
 *If yes
