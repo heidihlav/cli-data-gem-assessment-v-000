@@ -7,19 +7,22 @@ puts "Do you want to learn about one of our cats or dogs available for foster? E
 user_input = gets.strip
 user_input = "cats" || "dogs"
 
-*If "dogs" -*
-puts "Here are our urgent needs for Dogs:" *use index?
+If user_input = "dogs"
+*Display names*
+puts "Here are our urgent needs for Dogs:" *use index to display with names. "1. Tamale"
   -Dog name
   -Dog name
   -etc
 
 *If "cats" -*
-Here are our urgent needs for Cats:
+*Display names*
+puts "Here are our urgent needs for Cats:" *use index to display with names. "1. Tamale"
   -Cat name
   -Cat name
   -etc
 
-Which cat or dog would you like to know more about? Enter a number 1 - 10.
+puts "Which cat or dog would you like to know more about? Enter a number 1 - 10."
+user_input = gets.strip.to_i
 *User enters 1 - 10*
 *Displays pet name and description*
 
