@@ -7,9 +7,11 @@ puts "Do you want to learn about one of our cats or dogs available for foster? E
 user_input = gets.strip
 user_input = "cats" || "dogs"
 
+*Scrape main foster page*
+
 If user_input = "dogs"
 *Display names*
-puts "Here are our urgent needs for Dogs:" *use index to display with names. "1. Tamale"
+puts "Here are our urgent needs for Dogs:" *use index to display with names. "1. Tamale" so each_with_index?
   -Dog name
   -Dog name
   -etc
@@ -24,9 +26,12 @@ puts "Here are our urgent needs for Cats:" *use index to display with names. "1.
 puts "Which cat or dog would you like to know more about? Enter a number 1 - 10."
 user_input = gets.strip.to_i
 *User enters 1 - 10*
-*Displays individual pet name and description*
 
-Would you like to see another cat or dog? Enter Y or N.
+*Displays individual pet name and description* - have to scrape individual pet page
+
+puts "Would you like to see another cat or dog? Enter Y or N."
+user_input = gets.strip
+
 *If yes
    go back to "Which cat or dog..."*
 
