@@ -1,4 +1,4 @@
-CLI walkthrough - 
+CLI walkthrough -
 
 Welcome to Friends for Life Foster page!
 Do you want to learn about one of our cats or dogs available for foster? Enter 'cats' or 'dogs'.
@@ -18,4 +18,6 @@ Here are our urgent needs for Cats:
 Which cat or dog would you like to know more about? Enter a number 1 - 10.
 *User enters 1 - 10*
 
-*Displays pet name and description and waits for input*
+*Displays pet name and description*
+Would you like to see another cat or dog? Enter Y or N.
+*If yes, go back to "Which cat or dog...*" and waits for input*
