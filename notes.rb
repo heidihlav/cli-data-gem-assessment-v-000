@@ -7,13 +7,13 @@ puts "Do you want to learn about one of our cats or dogs available for foster? E
 user_input = gets.strip
 user_input = "cats" || "dogs"
 
-*If "cats" -*
-Here are our urgent needs for Dogs: *use index?
+*If "dogs" -*
+puts "Here are our urgent needs for Dogs:" *use index?
   -Dog name
   -Dog name
   -etc
 
-*If "dogs" -*
+*If "cats" -*
 Here are our urgent needs for Cats:
   -Cat name
   -Cat name
@@ -26,8 +26,7 @@ Which cat or dog would you like to know more about? Enter a number 1 - 10.
 Would you like to see another cat or dog? Enter Y or N.
 *If yes
    go back to "Which cat or dog..."*
-   
-*If no 
+
+*If no
  *"Thank you for considering one of our foster pets! If you are ready to apply, please contact us!"*
  *exits the program*
- 
